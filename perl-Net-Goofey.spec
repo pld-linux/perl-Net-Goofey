@@ -10,7 +10,7 @@ Summary:	Net::Goofey perl module
 Summary(pl):	Modu³ perla Net::Goofey
 Name:		perl-Net-Goofey
 Version:	1.4
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
