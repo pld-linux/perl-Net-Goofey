@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Goofey
-Summary:	Net-Goofey perl module
-Summary(pl):	Modu³ perla Net-Goofey
+Summary:	Net::Goofey perl module
+Summary(pl):	Modu³ perla Net::Goofey
 Name:		perl-Net-Goofey
 Version:	1.4
 Release:	6
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Goofey - implementation of a simple Goofey client in Perl.
+Net::Goofey - implementation of a simple Goofey client in Perl.
 
 %description -l pl
-Net-Goofey - implementacja prostego klienta Goofey w Perlu.
+Net::Goofey - implementacja prostego klienta Goofey w Perlu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
