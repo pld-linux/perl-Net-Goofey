@@ -2,9 +2,9 @@
 Summary:	Net-Goofey perl module
 Summary(pl):	Modu³ perla Net-Goofey
 Name:		perl-Net-Goofey
-Version:	0.9
-Release:	3
-Copyright:	GPL
+Version:	1.4
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-Goofey-%{version}.tar.gz
@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz client.pl
+%doc README.gz perlgoofey
 
 %{perl_sitelib}/Net/Goofey.pm
 %{perl_sitearch}/auto/Net/Goofey
