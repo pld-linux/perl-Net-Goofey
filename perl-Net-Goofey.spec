@@ -4,8 +4,8 @@
 			# interactive, require a Goofey login
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Goofey
+%define		pdir	Net
+%define		pnam	Goofey
 Summary:	Net::Goofey perl module
 Summary(pl):	Modu³ perla Net::Goofey
 Name:		perl-Net-Goofey
