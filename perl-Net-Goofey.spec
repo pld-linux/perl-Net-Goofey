@@ -5,11 +5,11 @@ Summary:	Net::Goofey perl module
 Summary(pl):	Modu³ perla Net::Goofey
 Name:		perl-Net-Goofey
 Version:	1.4
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Text-LineEditor
 Requires:	perl-Text-LineEditor
@@ -26,7 +26,8 @@ Net::Goofey - implementacja prostego klienta Goofey w Perlu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README perlgoofey
-%{perl_sitelib}/Net/Goofey.pm
+%{perl_vendorlib}/Net/Goofey.pm
 %{_mandir}/man3/*
