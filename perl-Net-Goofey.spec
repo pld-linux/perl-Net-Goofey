@@ -28,7 +28,7 @@ Net::Goofey - implementacja prostego klienta Goofey w Perlu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
