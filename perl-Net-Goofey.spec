@@ -14,7 +14,7 @@ BuildRequires:	perl-Text-LineEditor
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Requires:	perl-Text-LineEditor
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Net-Goofey - implementation of a simple Goofey client in Perl. 
