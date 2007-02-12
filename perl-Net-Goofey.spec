@@ -7,7 +7,7 @@
 %define		pdir	Net
 %define		pnam	Goofey
 Summary:	Net::Goofey perl module
-Summary(pl):	Modu≥ perla Net::Goofey
+Summary(pl.UTF-8):   Modu≈Ç perla Net::Goofey
 Name:		perl-Net-Goofey
 Version:	1.4
 Release:	8
@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::Goofey - implementation of a simple Goofey client in Perl.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::Goofey - implementacja prostego klienta Goofey w Perlu.
 
 %prep
