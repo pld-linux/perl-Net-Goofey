@@ -7,7 +7,7 @@
 %define		pdir	Net
 %define		pnam	Goofey
 Summary:	Net::Goofey perl module
-Summary(pl.UTF-8):   Moduł perla Net::Goofey
+Summary(pl.UTF-8):	Moduł perla Net::Goofey
 Name:		perl-Net-Goofey
 Version:	1.4
 Release:	8
