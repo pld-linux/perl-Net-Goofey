@@ -5,7 +5,6 @@
 
 %define		pdir	Net
 %define		pnam	Goofey
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::Goofey perl module
 Summary(pl.UTF-8):	Moduł perla Net::Goofey
 Name:		perl-Net-Goofey
